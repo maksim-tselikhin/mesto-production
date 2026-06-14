@@ -8,7 +8,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
-    <script type="module" crossorigin src="./assets/index-dk_4Lxd1.js"></script>
+    <script type="module" crossorigin src="./assets/index-CiqiIqSQ.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-sRwneXxG.css">
   </head>
   <body class="page">
@@ -166,6 +166,34 @@
             </button>
           </form>
         </div>
+      </div>
+    </div>
+
+    <!-- Попап статистики -->
+    <div class="popup popup_type_info">
+      <div class="popup__content">
+        <button type="button" class="popup__close"></button>
+        <h3 class="popup__title">Статистика карточек</h3>
+        <dl class="popup__info">
+          <div class="popup__info-item">
+            <dt class="popup__info-term">Всего пользователей:</dt>
+            <dd class="popup__info-description" id="info-users-count"></dd>
+          </div>
+          <div class="popup__info-item">
+            <dt class="popup__info-term">Всего лайков:</dt>
+            <dd class="popup__info-description" id="info-likes-count"></dd>
+          </div>
+          <div class="popup__info-item">
+            <dt class="popup__info-term">Максимально лайков от одного:</dt>
+            <dd class="popup__info-description" id="info-max-likes"></dd>
+          </div>
+          <div class="popup__info-item">
+            <dt class="popup__info-term">Чемпион лайков:</dt>
+            <dd class="popup__info-description" id="info-champion"></dd>
+          </div>
+        </dl>
+        <p class="popup__text"><b>Популярные карточки:</b></p>
+        <ul class="popup__list" id="info-popular-cards"></ul>
       </div>
     </div>
 
